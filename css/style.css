@@ -1,1 +1,53 @@
 /* Parallax Scrolling CSS */
+
+* {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	vertical-align: baseline;
+}
+
+body {
+	overflow-x: hidden;
+	height: 4550px;
+}
+
+*::before, *::after {
+	box-sizing: border-box;
+}
+
+/* Overriding Bootstrap Styles */
+.navbar {
+	border-radius: 0px !important;
+}
+
+.nav-static-top {
+	margin-bottom: 0px !important;
+}
+
+/* Parallax Scrolling Styles */
+#parallax-bg1{
+	position: fixed;
+	top: 15%;
+	left: 10%;
+	width: 90%;
+	z-index: 0;
+}
+
+#parallax-bg1 img {
+	z-index: 0;
+}
+
+#meka-img {
+	position: absolute;
+	top: 25%;
+	right: 7%;
+}
+
+/* mid-section styles */
+.mid-section,
+.overwatch-section {
+	position: relative;
+	z-index: 1;
+	color: #333;
+}
