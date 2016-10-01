@@ -23,26 +23,84 @@ body {
 
 .nav-static-top {
 	margin-bottom: 0px !important;
+	position: relative !important;
+	z-index: 5;
 }
 
 /* Parallax Scrolling Styles */
 #parallax-bg1{
 	position: fixed;
-	top: 15%;
+	top: 0px;
+	left: 10%;
+	width: 90%;
+	z-index: 3;
+}
+
+#widowmaker-img {
+	position: absolute;
+	top: 0px;
+	right: 12%;
+}
+
+#parallax-bg2 {
+	position: fixed;
+	top: 0px;
+	left: 10%;
+	width: 90%;
+	z-index: 2;
+}
+
+#meka-img {
+	position: absolute;
+	top: 244px;
+	left: -159px;
+}
+
+#tracer-img {
+	position: absolute;
+	top: 380px;
+	left: 3%;
+}
+
+#parallax-bg3 {
+	position: fixed;
+	top: 0px;
 	left: 10%;
 	width: 90%;
 	z-index: 0;
 }
 
-#parallax-bg1 img {
-	z-index: 0;
+#logo_bg {
+	position: absolute;
+	right: 738px;
+	top: 196px;
 }
 
-#meka-img {
-	position: absolute;
-	top: 25%;
-	right: 7%;
-}
+	#tiny_logo1  {
+		position: absolute;
+		top: 250px;
+		left: 35%;
+	}
+
+	#tiny_logo2 {
+		position: absolute;
+		top: 140px;
+		left: 52%;
+	}
+
+	#tiny_logo3 {
+		position: absolute;
+		top: 259px;
+		left: -107px;
+	}
+
+	#tiny_logo4 {
+		position: absolute;
+		top: 164px;
+		left: 45%;
+	}
+
+
 
 /* mid-section styles */
 .mid-section,
@@ -50,4 +108,12 @@ body {
 	position: relative;
 	z-index: 1;
 	color: #333;
+}
+
+.overwatch-section {
+	padding-top: 100px;
+}
+
+.overwatch-section p {
+	width: 48%;
 }
